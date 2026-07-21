@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "classification": "upstream-training-reference",
+  "decision": "retain-pinned-archive",
+  "application": false,
+  "executionSupported": false,
+  "deploymentSupported": false,
+  "snapshot": {
+    "configuredOrigin": "https://github.com/eakarsu/maven-project",
+    "upstreamFromPomScm": "https://github.com/jleetutorial/maven-project",
+    "commit": "0caf6111d5ef4679bf818f99fa448a525566ee69",
+    "lastCommitDate": "2017-11-18T14:27:47Z"
+  },
+  "license": {
+    "projectLicenseFound": false,
+    "status": "redistribution-blocked-pending-copyright-owner-license"
+  },
+  "ownership": {
+    "forkCustodian": "eakarsu",
+    "upstreamAuthor": "James Lee / jleetutorial",
+    "productOwner": null,
+    "securityPatchOwner": null
+  },
+  "supportedVersion": "historical snapshot only; no supported Maven, Java, servlet, Jetty, or Jenkins runtime",
+  "updatePolicy": "no automatic update; replace only with an owner-approved, licensed upstream snapshot after dependency and provenance review",
+  "modules": ["server", "webapp"]
+}
